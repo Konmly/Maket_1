@@ -1,7 +1,7 @@
 
 body {
  width: 100%;
- max-width: 1440px;
+ max-width: 1510px;
  font-family: 'Inter', sans-serif;
  font-style: normal;
  font-weight: 400;
@@ -19,8 +19,6 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1001;
-
 }
 
 .container-heder {
@@ -65,10 +63,13 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     width: inherit;
-    background-color: #FFF4F4;
     height: 800px;
-   
+
+    background:  #FFF4F4
+    url("../images/body/image1.png")
+    no-repeat bottom 13px left 40px;
 }
 
 .intro_title {
@@ -109,18 +110,19 @@ header {
 }
 
 .button_intro {
-    margin: 57px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    margin-top: 57px;
 }
 .btn {
-    display: inline-block;
-    vertical-align: top;
     font-size: 16px;
     line-height: 26px;
     width: 166px;
     height: 58px;
     border-radius: 10px;
     text-align: center;
-    margin: 0 auto;
+    
 }
 
 .btn_left {
@@ -131,7 +133,7 @@ header {
 }
 
 .btn_right {
-    padding: 16px 26px 16px 26px;
+    padding: 16px 26px;
     border: 2px solid #744343;
     color: #744343;
     background-color: #FFF4F4;
@@ -139,7 +141,7 @@ header {
 
 }
 
-.intro_2 {
+.intro_1 {
     width: inherit;
     height: 820px;
     border-radius: 25px;
@@ -155,22 +157,289 @@ header {
     top: 711px;
 }
 
-.blocks {
-    display: inline-block;
-    width: 267px;
-    height: 218px;
-    background-color: #FFFFFF;
-    text-align: center;
-    
-   
+.block {
+    display: flex;
 }
 
-.block_left {  
-position: absolute;
-height: 218px;
-margin: 481px 863px 121px 320px;
+.blocks {
+    display: flex;
+    width: 801px;
+    height: 218px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin: 481px 863px 121px 320px;
+}
 
-background: #FFFFFF;
-border-radius: 0px;
+.number__text {
+    height: 50px;
+    line-height: 50px;
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #744343;
+}
+
+.text__under__number {
+    font-size: 18px;
+    line-height: 28px;
+    color: #DD7979;
+}
+
+.text_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.fife {
+    padding: 60px 107px 10px 107px;
+}
+
+.homepages {
+    padding-left: 79px;
+}
+
+.text__center {
+    display: flex;
+    flex-direction: column;
+}
+
+.six {
+    padding: 60px 107px 10px 105px;
+}
+
+.portfolio {
+    padding-left: 60px;
+}
+
+.text_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.forty__five {
+    padding: 60px 86px 10px 100px;
+}
+
+.components {
+    padding-left: 35px;
+}
+
+.layout{
+    background: #FFF4F4
+    url("../images/body/Vector.png")
+    no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    height: 2810px;
+    
+}
+
+.layout__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.p_text_layouts {
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #DD7979;
+    letter-spacing: 2px;
+}
+
+.layout__title{
+    font-size: 48px;
+    line-height: 58px;
+    color:  #744343;
+    margin-top: 9px;
+    margin-bottom: 71px;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+
+.layout__item {
+    Width: 520px;
+    Height: 428px;
+    background-color:#FFFFFF;
+    
+}
+
+.layout__item__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    font-size: 20px;
+    line-height: 48px;
+    color: #744343;
+}
+
+.amazing {
+    height: 934px;
+    background-color: #FFFFFF;
+}
+
+.text__amazing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.p__text__amazing {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #DD7979;
+}
+
+.amazing__title {
+    font-size: 48px;
+    line-height: 58px;
+    color: #744343;
+    margin-bottom: 61px;
+}
+
+.amazing__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    margin-left: 120px;
+}
+
+.items {
+    width: 373px;
+    height: 252px;
+
+    box-shadow: 0px 10px 30px rgba(116, 67, 67, 0.1);
+    border-radius: 20px;
+}
+.item__1 {
+    background-image:
+     url("../images/body/Re-Usable\ Sections.png");
+     background-position: center;
+}
+
+.p__items__amazing {
+    font-size: 18px;
+    line-height: 28px;
+    color: #744343;
+    padding: 50px 59px 23px 40px;
+}
+
+.p__additional__text__amazing {
+    font-size: 16px;
+    line-height: 26px;
+    color: #967272;
+}
+
+.p__item__1 {
+    padding: 0px 59px 73px 40px;
+}
+
+.item__2{
+    background-image: 
+    url("../images/body/100%\ Responsive.png");
+    background-position: center;
+}
+
+.p__template{
+    padding: 0px 43px 3px 40px;
+}
+
+.p__item__2 {
+    padding: 0px 43px 47px 40px;
+}
+
+.item__3 {
+    background-image: 
+    url("../images/body/great\ support.png");
+    background-position: center;
+}
+
+.p__item__3 {
+    padding: 0px 48px 73px 40px;
+}
+
+.sup__contact__us {
+    font-size: 15px;
+    line-height: 26px;
+    color: #DD7979;
+}
+
+.item__4 {
+    background-image: 
+    url("../images/body/retina.png");
+    background-position: center;
+}
+
+.p__item__4 {
+    padding: 0px 77px 47px 40px;
+}
+
+.item__5 {
+    background-image: 
+    url("../images/body/Page\ Layouts.png");
+    background-position: center;
+}
+
+.p__item__5 {
+    padding: 0px 41px 47px 40px;
+}
+
+.item__6 {
+    background-image: 
+    url("../images/body/Enjoy\ it.png");
+    background-position: center;
+}
+
+.p__item__6 {
+    padding: 0px 41px 73px 40px;
+}
+
+.order__options {
+    display: flex;
+
+    background:#FFF4F4
+    url("../images/body/Vector2.png")
+    no-repeat;
+    background-size: cover;
+}
+
+.bbbb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px 30px;
+
+
+    margin-top: 180px;
+}
+
+.button__order__options {
+    width: 370px;
+    height: 106px;
+    background-color: #fff;
+
+    box-shadow:
+    0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+
+    font-size: 16px;
+    line-height: 26px;
+    color: #744343;
 
 }
