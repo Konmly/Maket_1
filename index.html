@@ -4,11 +4,19 @@
     <title>Maket1</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Montserrat:wght@100;400&display=swap" 
+    rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="container-header">
-      <img class="logo__img" src="./images/header/IMAGE.png">
+    <div class="header container">
+      <div class="header__container">
+        <div class="header__logo">
+          <img src="./images/header/IMAGE.png">
+        </div>
         <nav class="header__nav">
           <ul class="header__list">
             <li><a href="#">Overview</a></li>
@@ -17,169 +25,179 @@
             <li><a href="#">Pages</a></li>
             <li><a href="#">Template</a></li>
           </ul>
-        </nav>    
-          <div class="contact">Contact us</div>
+        </nav>
+      </div>  
+      <div>
+        <button class="header__btn" type="button">Contact us</button>
+      </div>
     </div>
   </header>
   <main>
     <section>
-      <div class="intro">
-        <p class="p__intro__lunar">Introducing to you Lunar</p>
-        <h1 class="intro_title">
+      <div class="lunar">
+        <p class="lunar__subtitle">Introducing to you Lunar</p>
+        <h1 class="lunar__title">
           <p>Unique illustrations</p>
           <p>to present your project</p>
         </h1>
-        <p class="p__intro__webflow">Lunar is a unique Webflow
+        <p class="lunar__text">
+          Lunar is a unique Webflow
           template made for every creative,
           designer, artist alike. It is filled with
-          creative design
+          creative
+        </p>
+        <p class="lunar__text">
+          design
           elements that can be easily customized, depending
-          on the needs of the end user, such as artist portfolio,
+          on the needs of the end user, such as artist
+        </p>
+        <p class="lunar__text">
+          portfolio,
           illustration portfolio, designer portfolio etc.
         </p>
-    </section>
-      <section class="button_intro">
-        <button class="btn btn_left" type="button">Learn More</button>
-        <button class="btn btn_right" type="button">Purchase Idea</button>
-      </section>
-  </div>
-       <!-- #<img class="img-p" src="./images/body/image1.png">
-       <img class="img-blot" src="./images/body/image2.png"> -->
-                
+          <div class="lunar__buttons">
+            <button class="lunar__btn lunar__btn_left" type="button">Learn More</button>
+            <button class="lunar__btn lunar__btn_right" type="button">Purchase Idea</button>
+          </div>
+      </div>
+   </section>
+       
              
-  <div class="intro__portfolio__layouts"> 
-    <img class="img__photo" src="./images/body/image3.png">
-      <section class="block">
-        <div class="blocks">
-          <div class="text_left">
-            <p class="number__text fife">5+</p>
-            <p class="text__under__number homepages ">Homepages</p>
-          </div>
-          <div class="text__center">
-            <p class="number__text six">6+</p>
-            <p class="text__under__number portfolio">Portfolio layouts</p>
-          </div>
-          <div class="text_right">
-            <p class="number__text forty__five">45+</p>
-            <p class="text__under__number components">Components included</p>
-          </div>
-        </div>
-      </section>
-  </div>
-
-  <section class="intro__layout">
-    <div class="layout__text">
-      <p class="p_text_layouts">Start By CHOOSing your</p>
-      <h1 class="layout__title">Landing page layouts</p>
+  <section class="portfolio"> 
+    <div class="portfolio__photo">
+      <img class="portfolio__img" src="./images/body/image3.png">
     </div>
-    <div class="elements">
+    <div class="portfolio__blocks">
+      <div class="portfolio__block container">
+        <div class="portfolio__items">
+          <p class="portfolio__numbers">5+</p>
+          <p class="portfolio__text">Homepages</p>
+        </div>
+        <div class="portfolio__items">
+          <p class="portfolio__numbers">6+</p>
+          <p class="portfolio__text">Portfolio layouts</p>
+        </div>
+        <div class="portfolio__items">
+          <p class="portfolio__numbers">45+</p>
+          <p class="portfolio__text">Components included</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layout">
+    <div class="layout__text">
+      <p class="layout__subtitle">Start By CHOOSing your</p>
+      <p class="layout__title">Landing page layouts</p>
+    </div>
+    <div class="layout__items">
       <div class="layout__item">
-        <p class="layout__item__title">Landing vr.1</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Landing vr.1</p>
+          <div class="layout__item_img">
             <img src="./images/body/Landing vr.1.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">Landing vr.2</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Landing vr.2</p>
+          <div class="layout__item_img">
            <img src="./images/body/Landing vr.2.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">Landing vr.3</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Landing vr.3</p>
+          <div class="layout__item_img">
             <img src="./images/body/Landing vr.3.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">Landing vr.4</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Landing vr.4</p>
+          <div class="layout__item_img">
             <img src="./images/body/Landing vr.4.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">Landing vr.5</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Landing vr.5</p>
+          <div class="layout__item_img">
             <img src="./images/body/Landing vr.5.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">About us</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">About us</p>
+          <div class="layout__item_img">
             <img src="./images/body/About us.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">FAQ page</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">FAQ page</p>
+          <div class="layout__item_img">
             <img src="./images/body/FAQ page.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">Blog vr.1</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Blog vr.1</p>
+          <div class="layout__item_img">
             <img src="./images/body/Blog vr.1.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">Blog vr.2</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Blog vr.2</p>
+          <div class="layout__item_img">
             <img src="./images/body/Blog vr.2.png">
           </div>
       </div>
       <div class="layout__item">
-        <p class="layout__item__title">Blog vr.3</p>
-          <div class="layout__item-img">
+        <p class="layout__item_title">Blog vr.3</p>
+          <div class="layout__item_img">
             <img src="./images/body/Blog vr.3.png">
           </div>
       </div>
     </div>
   </section>
 
-  <section class="intro__amazing">
-    <div class="text__amazing">
-      <p class="p__text__amazing">Amazing features</p>
-      <h1 class="amazing__title">What You Get</h1>
+  <section class="amazing">
+    <div class="amazing__text">
+      <p class="amazing__subtitle">Amazing features</p>
+      <p class="amazing__title">What You Get</p>
     </div>
       <div class="amazing__items">
-          <div class="items item__1">
-            <p class="p__items__amazing">Re-Usable Sections</p>
-            <p class="p__additional__text__amazing p__item__1">You can create an infinite number
+          <div class="amazing__item amazing__item_1">
+            <p class="amazing__text_inside">Re-Usable Sections</p>
+            <p class="amazing__text_description">You can create an infinite number
               of layout by combining the pre made element of this
               amazing template
             </p>
           </div>
-        <div class="items item__2">
-          <p class="p__items__amazing">100% Responsive</p>
-          <p class="p__additional__text__amazing p__template">This template is more than responsive</p>
-          <p class="p__additional__text__amazing p__item__2">you can choose
+        <div class="amazing__item amazing__item_2">
+          <p class="amazing__text_inside">100% Responsive</p>
+          <p class="amazing__text_description">This template is more than responsive 
+            you can choose
             any site width, and all it will look incredible in any
             screen size
           </p>
         </div>
-        <div class="items item__3">
-          <p class="p__items__amazing" >Great Support</p>
-          <p class="p__additional__text__amazing p__item__3">
+        <div class="amazing__item amazing__item_3">
+          <p class="amazing__text_inside" >Great Support</p>
+          <p class="amazing__text_description">
             We are dedicated to our costumers who use our templates.
             don’t hesitate to <sup class="sup__contact__us">contact us</sup>
           </p>
         </div>
-        <div class="items item__4">
-          <p class="p__items__amazing">Retina Ready</p>
-          <p class="p__additional__text__amazing p__item__4">This template includes ultra sharp images so it look
+        <div class="amazing__item amazing__item_4">
+          <p class="amazing__text_inside">Retina Ready</p>
+          <p class="amazing__text_description">This template includes ultra sharp images so it look
              stunning in any Retina Displays and other hight
              resolution screen
           </p>
         </div>
-        <div class="items item__5">
-          <p class="p__items__amazing">Page Layouts</p>
-          <p class="p__additional__text__amazing p__item__5">We have created 6 different homepages which are simple and clear
+        <div class="amazing__item amazing__item_5">
+          <p class="amazing__text_inside">Page Layouts</p>
+          <p class="amazing__text_description">We have created 6 different homepages which are simple and clear
              and can easily be customized for any of your needs.
           </p>
         </div>
-        <div class="items item__6">
-          <p class="p__items__amazing">Enjoy it</p>
-          <p class="p__additional__text__amazing p__item__6">And now you can finally; just enjoy and be creative!
+        <div class="amazing__item amazing__item_6">
+          <p class="amazing__text_inside">Enjoy it</p>
+          <p class="amazing__text_description">And now you can finally; just enjoy and be creative!
              If you have any questions, don’t hesitate to
           </p>
         </div>
@@ -187,31 +205,32 @@
     </div>
   </section>
 
-  <section class="intro__order__options">
-    <div class="buttons__order__options">
-      <button type="button" class="button__order__options">Portfolio vr.1</button>
-      <button type="button" class="button__order__options">Portfolio vr.2</button>
-      <button type="button" class="button__order__options">Portfolio vr.3</button>
-      <button type="button" class="button__order__options">Portfolio vr.4</button>
-      <button type="button" class="button__order__options">Portfolio vr.5</button>
-      <button type="button" class="button__order__options">Portfolio vr.6</button>
-      <button type="button" class="button__order__options">Style Guide</button>
-      <button type="button" class="button__order__options">Licensing</button>
-      <button type="button" class="button__order__options">Changelog</button>
-      <button type="button" class="button__order__options">Password</button>
-      <button type="button" class="button__order__options">404 Page</button>
-      <button type="button" class="button__order__options">Project page</button>
-      <button type="button" class="button__order__options">Blog page</button>
-      <button type="button" class="button__order__options">Categorie page</button>
-      <button type="button" class="button__order__options">Team page</button>
-        <div class="big__buttons__order_options">
-          <button type="button"  class="big__buttons__order_options button__order__options">Team page</button>
-        </div>
-        <div class="big__buttons__order_options">
-          <button type="button" class="big__buttons__order_options button__order__options">Team page</button>
-        </div>
+  <section class="order">
+    <div class="order__buttons">
+      <button type="button" class="order__button">Portfolio vr.1</button>
+      <button type="button" class="order__button">Portfolio vr.2</button>
+      <button type="button" class="order__button">Portfolio vr.3</button>
+      <button type="button" class="order__button">Portfolio vr.4</button>
+      <button type="button" class="order__button">Portfolio vr.5</button>
+      <button type="button" class="order__button">Portfolio vr.6</button>
+      <button type="button" class="order__button">Style Guide</button>
+      <button type="button" class="order__button">Licensing</button>
+      <button type="button" class="order__button">Changelog</button>
+      <button type="button" class="order__button">Password</button>
+      <button type="button" class="order__button">404 Page</button>
+      <button type="button" class="order__button">Project page</button>
+      <button type="button" class="order__button">Blog page</button>
+      <button type="button" class="order__button">Categorie page</button>
+      <button type="button" class="order__button">Team page</button>
+      <div class="order__big_btns">
+        <button type="button"  class="order__button order__big_btns">Team page</button>
+      </div>
+      <div class="order__big_btns">
+        <button type="button" class="order__button order__big_btns">Team page</button>
+      </div>
     </div>
   </section>
+  
   <section class="intro__submission__form">
     <div class="text__submission__form">
       <p class="p__submission__form">Our Newsletter</p>
