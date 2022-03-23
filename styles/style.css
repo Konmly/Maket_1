@@ -61,14 +61,6 @@ p,h1,h2,h3 {
 
 }
 
-
-
-
-
-
-
-
-
 .lunar {
     display: flex;
     flex-direction: column;
@@ -142,13 +134,6 @@ p,h1,h2,h3 {
     margin-left: 42px;
 }
 
-
-
-
-
-
-
-
 .portfolio {
     border-radius: 25px;
     background-color: #DD7979;
@@ -207,13 +192,6 @@ p,h1,h2,h3 {
     color: #DD7979;
 }
 
-
-
-
-
-
-
-
 .layout {
     background: #FFF4F4
     url("../images/body/Vector.png")
@@ -271,10 +249,6 @@ p,h1,h2,h3 {
     line-height: 48px;
     color: #744343;
 }
-
-
-
-
 
 .amazing {
     background-color: #FFFFFF;
@@ -382,10 +356,6 @@ p,h1,h2,h3 {
     background-position: center;
 }
 
-
-
-
-
 .order {
     display: flex;
 
@@ -432,54 +402,56 @@ p,h1,h2,h3 {
     width: 570px;
 }
 
-.intro__submission__form {
+.submission {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
 
-    margin-top: 1px;
     padding-bottom: 44px;
 
     background-image: 
     url("../images/body/boble.png");
     background-repeat: no-repeat;
-    background-position: left 265px bottom 125px ;
-
+    background-position: left 265px bottom 125px;
 }
 
-.p__submission__form {
+.submission__subtitle {
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 2px;
     color: #DD7979;
     text-align: center;
+
+    margin-bottom: 18px;
 }
 
-.title__submission__form {
-    margin-top: 18px;
+.submission__title {
     font-size: 48px;
     line-height: 58px;
     color: #744343;
+
     text-align: center;
 }
 
-.input__email {
+.submission__input {
    width: 600px;
    height: 60px;
+
    border: 2px solid #FFBABA;
    box-sizing: border-box;
    border-radius: 10px;
+
    margin-top: 127px;
    margin-bottom: 20px;
 }
 
-.btn__email {
+.submission__btn {
     width: 600px;
     height: 56px;
+
     background-color: #DD7979;
     border-color: #DD7979;
-    box-shadow: none;
     border-radius: 10px;
 
     font-size: 12px;
@@ -488,7 +460,7 @@ p,h1,h2,h3 {
     color: #E5E5E5;
 }
 
-.p__tex__below {
+.submission__below_p {
     font-family: 'Montserrat';
     font-size: 14px;
     line-height: 24px;
@@ -498,16 +470,15 @@ p,h1,h2,h3 {
     margin-top: 32px;
 }
 
-.b__subscribe {
+.submission__subscribe_p {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
     color: #744343;
-
 }
 
-.p__data__use {
+.submission__use_p {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 14px;
@@ -517,7 +488,7 @@ p,h1,h2,h3 {
     text-align: center;
 }
 
-.intro__footer {
+.footer {
     padding: 75px 135px  0px 135px;
 
     background-color: #744343;
@@ -545,21 +516,23 @@ p,h1,h2,h3 {
     margin-left: 41px;
 }
 
-.footer_text {
+.footer__text {
     display: flex;
     justify-content: space-between;
+
     padding-top: 30px;
     padding-bottom: 54px;
+
     border-bottom: 1px solid #995858;
 }
 
-.p__footer__left {
+.footer__wanna_p {
     font-size: 38px;
     line-height: 48px;
     color: #FFF4F4;
 }
 
-.p__email {
+.footer__email_p {
     font-size: 16px;
     line-height: 26px;
     color: #FFBABA;
@@ -567,7 +540,7 @@ p,h1,h2,h3 {
     padding-top: 20px;
 }
 
-.btn__footer__contact__us {
+.footer__btn {
     width: 136px;
     height: 56px;
     margin-top: 40px;
@@ -575,6 +548,7 @@ p,h1,h2,h3 {
     background-color: #DD7979;
     border: none;
     border-radius: 10px;
+
     font-size: 15px;
     line-height: 26px;
     color: #FFFFFF;
@@ -586,7 +560,7 @@ p,h1,h2,h3 {
     color: #FFF4F4;
 }
 
-.p__footer {
+.footer__p {
     font-size: 18px;
     line-height: 28px;
     color: #FFF4F4;
@@ -594,11 +568,11 @@ p,h1,h2,h3 {
     padding-bottom: 30px;
 }
 
-.a__footer p {
+.footer__a p {
     margin-bottom: 34px;
 }
 
-.a__footer__text{
+.footer__text_a {
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF;
@@ -610,7 +584,7 @@ p,h1,h2,h3 {
     margin-right: 100px;
 }
 
-.p__footer__img {
+.footer__img {
     display: flex;
     align-items: center;
 
@@ -647,13 +621,13 @@ p,h1,h2,h3 {
     justify-content: space-between;
 }
 
-.p__footer__bottom {
+.footer__bottom_p {
     font-size: 12px;
     line-height: 30px;
     color: #FFFFFF;
 }
 
-.a__footer__bottom {
+.footer__bottom_a {
     text-decoration: none;
     font-size: 12px;
     line-height: 30px;
@@ -661,6 +635,6 @@ p,h1,h2,h3 {
     padding-right: 4px;
 }
 
-.a__footer__border {
+.footer__border_a {
     border-right: 1px solid #FFE2D4;
 }
