@@ -78,7 +78,16 @@ p,h1,h2,h3 {
     no-repeat bottom 13px left 40px;
 }
 
-.lunar__title {
+.lunar__title_1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    color: #744343;
+
+    text-align: center;
+}
+
+.lunar__title_2 {
     font-size: 48px;
     font-weight: 400;
     line-height: 58px;
@@ -302,7 +311,7 @@ p,h1,h2,h3 {
 
 .amazing__item_1 {
     background-image:
-     url("../images/body/Re-Usable\ Sections.png");
+     url("../images/body/Re_Usable_Sections.png");
      background-position: center;
 }
 
@@ -324,14 +333,14 @@ p,h1,h2,h3 {
 
 .amazing__item_2 {
     background-image: 
-    url("../images/body/100%\ Responsive.png");
+    url("../images/body/100%_Responsive.png");
     background-position: center;
 }
 
 
 .amazing__item_3 {
     background-image: 
-    url("../images/body/great\ support.png");
+    url("../images/body/great_support.png");
     background-position: center;
 }
 
@@ -350,13 +359,13 @@ p,h1,h2,h3 {
 
 .amazing__item_5 {
     background-image: 
-    url("../images/body/Page\ Layouts.png");
+    url("../images/body/Page_Layouts.png");
     background-position: center;
 }
 
 .amazing__item_6 {
     background-image: 
-    url("../images/body/Enjoy\ it.png");
+    url("../images/body/Enjoy_it.png");
     background-position: center;
 }
 
@@ -501,7 +510,7 @@ p,h1,h2,h3 {
 
     background-color: #744343;
     background-image:
-    url("../images/body/footer\ background.png");
+    url("../images/body/footer_background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -604,21 +613,21 @@ p,h1,h2,h3 {
 
 .footer__bkgr__img__1 {
     background-image:
-    url("../images/body/footer-background-ikon-1.png");
+    url("../images/body/footer_background_ikon_1.png");
     background-repeat: no-repeat;
     padding: 0px 10px;
 }
 
 .footer__bkgr__img__2 {
     background-image:
-    url("../images/body/footer-background-ikon-2.png");
+    url("../images/body/footer_background_ikon_2.png");
     background-repeat: no-repeat;
     padding: 0px 10px;
 }
 
 .footer__bkgr__img__3 {
     background-image: 
-    url("../images/body/footer-background-ikon-3.png");
+    url("../images/body/footer_background_ikon_3.png");
     background-repeat: no-repeat;
     padding: 0px 10px;
 }
